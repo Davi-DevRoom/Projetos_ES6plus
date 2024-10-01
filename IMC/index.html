@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- title -->
+    <title>Indice de Massa Corporal</title>
+</head>
+<body>
+    <main class="container">
+
+        <section class="container-calc">
+
+            <div class="content-calc">
+                <h1>Calculadora de IMC - Indice de massa corporal</h1>
+                <form id="form" class="formulario">
+                    <div>
+                        <label for="weight">
+                            Peso em Kg 
+                        </label>
+                        <div class="input-field">
+                            <i class="uil uil-weight"></i>
+                            <input type="number" id="weight" step=".01"  required>
+                        </div>     
+                    </div>
+
+                    <div>
+                        <label for="height">
+                            Altura em Metros
+                        </label>
+                        <div class="input-field">
+                            <i class="uil uil-ruler"></i>
+                            <input type="number" id="height" step=".01" required>
+                            <span></span>
+                        </div>   
+                    </div>
+                    
+                    <button type="submit" id="calcular">calcular</button>
+
+                </form>
+
+                <div class="result">
+                
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
