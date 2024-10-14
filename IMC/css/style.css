@@ -121,3 +121,11 @@ body{
     font-size: 1.5rem;
     color: #fff;
 }
+
+
+.result{
+    color: #fff;
+    font-family: "Outfit", system-ui;
+    background: transparent;
+    
+}
