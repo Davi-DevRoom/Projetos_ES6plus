@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <!--metadado autor-->
+    <meta name="author" content="Davi Luiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+     <link rel="stylesheet" href="./css/style.css">
+    <!-- Title-->
+    <title>Carrossel de imagens</title>
+</head>
+<body>
+    <!--container de imagem-->
+    <main class="container">
+        <section class="content">
+            <div class="slides">
+                <!--Radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- FIM Radio buttons -->
+                
+                <!-- Slide imagens -->
+                <div class="slide first">
+                    <img src="img/49426-1920x1080.jpg" alt="lago_com_montanhas">
+                </div>
+                <div class="slide ">
+                    <img src="img/b7f941ba09bef2c6c62569bf41dc9e67.jpg" alt="Lago_com_floresta">
+                </div>
+                <div class="slide ">
+                    <img src="img/moraine-lake-valley-of-the-ten-peaks-banff-national-park-a-1.jpg" alt="Lago_com_montanhas_de_gelo">
+                </div>
+                <div class="slide ">
+                    <img src="img/pretty-nature-pictures-sme5mdcfupvjp0ly.jpg" alt="Lago_com_florestas_e_pedras">
+                </div>
+                <!-- FIM Slide imagens -->
+
+                <!-- Navegação auto -->
+                 <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                 </div>
+                <!-- Fim Navegação auto -->
+            </div>
+            <!-- Navegação Manual -->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- Fim Navegação Manual -->
+        </section>
+    </main>
+    <!-- FIM Container -->
+
+    <!-- footer -->
+    <footer>
+        <div>
+            by me <a href="https://github.com/Davi-log">&copy; Davi Luiz</a>, <span>Todos os direitos reservados.</span>
+        </div>
+    </footer>
+    <!-- FIM footer -->
+
+    <!-- Script slide -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
