@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Alinhamento de conteudo*/
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgb(22, 22, 22);
+}
+
+.content{
+    background-color: blueviolet;
+    width: 25rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.image {
+    width: 99%;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Textos */
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 255, 170);
+    height: 150px;
+    overflow: hidden;
+    position: relative;  
+}
+
+.text:hover{
+    color: rgb(226, 220, 220);
+}
+
+.text h3{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text p{
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.text p::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent,  blueviolet);
+
+}
+
+/* btn */
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  rgb(0, 255, 170);
+    color: rgb(39, 38, 38);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: rgb(226, 220, 220);
+    color:  rgb(39, 38, 38);
+}
+
+/* footer */
+footer{
+    color: rgb(0, 255, 170);
+}
+
+footer a{
+    color:  rgb(226, 220, 220);
+}
+
+/* class ativar text */
+.content.active .text{
+    height: auto;
+}
+
+.content.active .text p::before{
+    visibility: hidden;
+}
+
