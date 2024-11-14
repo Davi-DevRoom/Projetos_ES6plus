@@ -13,6 +13,7 @@ body{
     background-color: rgb(48, 47, 47);
 }
 
+/* Alinhamento da class box */
 .box{
     font-family: "Inter", sans-serif;
     color: aliceblue;
@@ -22,7 +23,6 @@ body{
     justify-content: center;
     gap: 1rem;
 }
-
 
 .box-input{
     width: 100%;
@@ -39,6 +39,7 @@ body{
     font-size: 1.5rem;
 }
 
+/* Botoes personalizados*/
 .btn{
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -53,4 +54,14 @@ body{
 .btn:hover{
     background-color: rgb(179, 117, 2);
     color: rgb(255, 255, 255);
+}
+
+/* Footer */
+footer{
+    margin: 1rem 0;
+    color: white;
+}
+
+footer a{
+    color: rgb(255, 230, 0);
 }
