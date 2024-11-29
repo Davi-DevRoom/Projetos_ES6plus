@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Alinhamento de container*/
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: #303030;
+    display: grid;
+    place-content: center;
+}
+
+/* estilização container */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.container h1{
+    color: white;
+    font-size: 3rem;
+}
+
+/*input-group estilo*/
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+/*input-field estilo*/
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input{
+    width: 250px;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5500FF;
+    color: white;
+}
+
+/* button calcular */
+#calcular{
+    padding: 10px 20px;
+    background-color: #5500FF;
+    border-color: #5500FF;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#calcular:hover{
+    background-color: #3d03af;
+    border-color: #3d03af;  
+}
+
+/* estilo resultado */
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result span{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem; 
+}
+
+/* footer */
+footer{
+    margin: 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: #5500FF;
+}

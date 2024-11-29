@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- Author-->
+    <meta name="author" content="Davi Luiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Title -->
+    <title>Calculadora de Juros Simples</title>
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- titulo -->
+        <h1>Calculadora de juros simples</h1>
+        <!-- input container-->
+        <div class="input-group">
+            <div class="input-field">
+                <label for="valorInicial"> Valor Inicial: </label>
+                <input type="number" name="valor-inicial" id="valorInicial">
+            </div>
+            <div class="input-field">
+                <label for="taxaJuros">Taxa de Juros(ao mês): </label>
+                <input type="number" name="taxa-juros" id="taxaJuros">
+            </div>
+            <div class="input-field">
+                <label for="periodoTempo"> Período: </label>
+                <input type="number" name="periodo-de-tempo" id="periodoTempo">
+            </div>
+        </div>
+        <!-- FIM input container-->
+        <!-- btn -->
+        <button id="calcular">Calcular o juros</button>
+        <!-- Result -->
+        <div id="result">
+            <span> </span>
+        </div>
+    </div>
+
+     <!-- Footer -->
+     <footer>
+        By me <a href="https://github.com/Davi-log">&copy; Davi Luiz</a>.
+    </footer>
+    <!-- FIM Footer -->
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

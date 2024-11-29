@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;margin: 0;box-sizing: border-box;
 }
 
+/* Alinhamento dos conteudos */
 body{
     width: 100vw;
     height: 100vh;
@@ -10,6 +13,7 @@ body{
     place-content: center;
 }
 
+/* Div content */
 .content{
     border-radius: 2rem;
     border: 1px solid #b8fadd;
@@ -17,17 +21,76 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     /*efetio bg*/
     gap: 1rem;
-    background-image: radial-gradient(#b8fadd 1px, transparent 1px);
+    background-image: radial-gradient(#00ff91c4 1px, transparent 1px);
     background-position: 50% 50%;
     background-size: 1.1rem 1.1rem;
     padding:4rem;
     overflow: hidden;
 }
 
+.content h1{
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+/* estilos dos inputs */
 .group-inputs{
     display: flex;
     gap: 5rem;
+    padding: 1rem 0;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.field label{
+    font-family: "Overpass", sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.field input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #00ff91c4;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
+
+/* estilo do button */
+#generate{
+    padding: 10px 20px;
+    font-family: "Overpass", sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #00ff91;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* personalização do resultado */
+#result span{
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+/* footer */
+footer{
+    margin: 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: #00ff91;
 }
