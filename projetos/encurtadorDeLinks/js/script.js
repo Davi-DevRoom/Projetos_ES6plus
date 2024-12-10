@@ -9,13 +9,13 @@ function encurtarUrl() {
     //encurtar o link
     let headers = {
         "Content-Type": "application/json",
-        "apiKey": "" //colocar api key do rebrand.ly
+        "apiKey": "04e5b7bfe7bc45489d56c0bc8e5d1b86" //colocar api key do rebrand.ly
     }
 
     //dados
     let linkRequest = {
         destination: url,
-        domain: { fullName: "TeamMoss.ly" }
+        domain: { fullName: "rebrand.ly" }
     }
 
     fetch("https://api.rebrandly.com/v1/links", {

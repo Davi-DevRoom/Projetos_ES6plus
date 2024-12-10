@@ -122,10 +122,10 @@ body{
     color: #fff;
 }
 
-
 .result{
     color: #fff;
     font-family: "Outfit", system-ui;
     background: transparent;
-    
+    font-size: 1.5rem;
+    flex-wrap: wrap;
 }
