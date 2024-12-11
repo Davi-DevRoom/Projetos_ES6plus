@@ -24,6 +24,14 @@ Esse projeto conta com 30 projetos que vão desde o básico até o intermediári
 ### Projeto 5 - IMC
 
 ### Projeto 6 - Cronometro
+- Este projeto pode ser um pouco mais desafiador do que os anteriores, mas não deixe de tentar!
+
+##### Conteúdo revisado
+
+* *[setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp)*
+* *[clearInterval](https://www.w3schools.com/jsref/met_win_clearinterval.asp)*
+* *[Function](https://www.w3schools.com/js/js_functions.asp)*
+
 
 ### Projeto 7 - Carrossel de imagens
 
