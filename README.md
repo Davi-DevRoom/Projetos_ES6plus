@@ -39,6 +39,12 @@ Esse projeto conta com 30 projetos que vão desde o básico até o intermediári
 
 ### Projeto 9 - Relógio digital
 
+
+##### Conteúdo revisado
+
+* *[setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp)*
+* *[constructor new Date()](https://www.w3schools.com/js/js_date_methods.asp)*
+
 ### Projeto 10 - Relógio analógico
 
 ### Projeto 11 - Calculadora de juros simples
