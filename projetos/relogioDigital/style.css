@@ -42,3 +42,15 @@ body{
 .box span{
     color: #184843;
 }
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 16px;
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+}
+
+footer a{
+    color: #3cc5af;
+}

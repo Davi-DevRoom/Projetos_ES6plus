@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta name="author" content="Davi_DevRoom">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora de Juros Compostos</title>
 </head>
 <body>
-    <div>
-        <label for="valor-inicial">valor inicial</label>
-        <input type="number" name="" id="valor-inicial">
-    </div>
-    <div>
-        <label for="taxa">taxa de juros</label>
-        <input type="number" name="" id="taxa">
-    </div>
-    <div>
-        <label for="periodo">Periodo em meses</label>
-        <input type="number" name="" id="periodo">
-    </div>
-    <button id="click"> clica </button>
 
-    <div class="result">
-        <span></span>
-    </div>
+    <header class="header">
+        <h1>Calculadora de <br> juros compostos</h1>
+        <div>
+            By me <a href="https://github.com/Davi-DevRoom">&copy; Davi-DevRoom</a>.
+        </div>
+    </header>
+
+    <main class="container" id="container">
+        <div>
+            <label for="valor-inicial">Valor inicial</label>
+            <input type="number" name="" id="valor-inicial">
+        </div>
+        <div>
+            <label for="taxa">Taxa de juros (ao mes)</label>
+            <input type="number" name="" id="taxa">
+        </div>
+        <div>
+            <label for="periodo">Periodo em meses</label>
+            <input type="number" name="" id="periodo">
+        </div>
+        <button id="click"> Calcular </button>
+
+        <div class="result">
+            <span></span>
+        </div>
+        
+    </main>
+
     <script src="JS/script.js"></script>
 </body>
 </html>

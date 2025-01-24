@@ -51,3 +51,16 @@ body{
     font-size: 1rem;
     font-weight: 600;
 }
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    text-align: center;
+    color: #000;
+    z-index: 10;
+}
+
+footer a{
+    color: orange;
+}
