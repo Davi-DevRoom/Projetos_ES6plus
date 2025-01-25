@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Davi_DevRoom">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Juros Compostos com aportes mensais</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Calculadora de <br> juros compostos <br> com aportes mensais</h1>
+        <div>
+            By me &copy;<a href="https://github.com/Davi-DevRoom">Davi-DevRoom</a>.
+        </div>
+    </header>
+
+    <main class="container">
+        <ul>
+            <li>
+                <label for="valor-inicial">Valor inicial:</label>
+                <input type="number" name="" id="valor-inicial">
+            </li>
+            <li>
+                <label for="valor-mensal">Aporte mensal:</label>
+                <input type="number" name="" id="valor-mensal">
+            </li>
+            <li>
+                <label for="taxa-mes">taxa ao mês:</label>
+                <input type="number" name="" id="taxa-mes">
+            </li>
+            <li>
+                <label for="periodo">Tempo de aplicação em meses:</label>
+                <input type="number" name="" id="periodo">
+            </li>
+        </ul>
+        <button id="calc">CALCULAR</button>
+        <div class="result" id="result">
+            <span></span>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+    
+</body>
+</html>
