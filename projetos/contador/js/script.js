@@ -4,6 +4,7 @@
 const result = document.querySelector('.num');
 const menos = document.querySelector('.menos');
 const mais = document.querySelector('.mais');
+const zerar = document.querySelector('.zerar');
 
 // declare uma variavel que ira receber alterações
 let count = 0;
@@ -16,5 +17,10 @@ mais.addEventListener('click', ()=> {
 
 menos.addEventListener('click', () => {
     count -= 1;
+    result.innerText = count;
+})
+
+zerar.addEventListener('click', () => {
+    count = 0;
     result.innerText = count;
 })

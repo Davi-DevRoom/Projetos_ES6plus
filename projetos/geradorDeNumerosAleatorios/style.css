@@ -15,6 +15,7 @@ body{
 
 /* Div content */
 .content{
+    width: 350px;
     border-radius: 2rem;
     border: 1px solid #b8fadd;
     display: flex;
@@ -22,11 +23,11 @@ body{
     align-items: center;
     justify-content: center;
     /*efetio bg*/
-    gap: 1rem;
+    gap: .5rem;
     background-image: radial-gradient(#00ff91c4 1px, transparent 1px);
     background-position: 50% 50%;
     background-size: 1.1rem 1.1rem;
-    padding:4rem;
+    padding: 1rem;
     overflow: hidden;
 }
 
@@ -39,6 +40,7 @@ body{
 /* estilos dos inputs */
 .group-inputs{
     display: flex;
+    flex-direction: column;
     gap: 5rem;
     padding: 1rem 0;
 }
@@ -75,6 +77,7 @@ body{
     border: none;
     border-radius: 5px;
     width: 100%;
+    cursor: pointer;
 }
 
 /* personalização do resultado */

@@ -18,7 +18,7 @@ body{
 
 .content{
     background-color: blueviolet;
-    width: 25rem;
+    width: 20rem;
     border-radius: 5px;
     display: flex;
     flex-direction: column;

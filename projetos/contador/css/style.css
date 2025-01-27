@@ -21,7 +21,7 @@ h1{
 /* Alinhamento de conteudo interno */
 .content{
     background-color: rgb(58, 58, 58);
-    width: 400px;
+    width: 350px;
     height: 200px;
     border-radius: 10px;
     display: flex;
