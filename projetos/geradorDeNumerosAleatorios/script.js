@@ -8,7 +8,5 @@ function numeroAleatorio(){
     
     let result = Math.floor(Math.random() * (numeroMax - numeroMin + 1)) + numeroMin;
 
-        
-   
     document.querySelector('#result > span').textContent = result;
 }

@@ -5,15 +5,10 @@ document.querySelector('#calc').addEventListener('click', ()=>{
     const TEMP = Number(document.querySelector('#periodo').value);
     const RES = document.querySelector('#result  span');
     
-    
-
     let i = TAXA/100;
-
     let montanteInicial = CAP * Math.pow(1 + i, TEMP);
-
     let montanteAportes = VALUE_MES *((Math.pow(1 + i, TEMP) - 1)/i);
-
     let montanteFinal = montanteInicial + montanteAportes;
-    if(montanteFinal === isNaN) alert('coloque valores');
+
     RES.textContent = `R$ ${montanteFinal.toFixed(2)}`;
 });
